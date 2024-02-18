@@ -1,6 +1,6 @@
 Brothers Mechanic Ltd.
 
-- This project was made to submit as course work of CSE 391 Assignment-2
+- This project was made to submit as course work of CSE 391 Assignment-3
 
 - Apache, MySQL and PHP is used to create the project.
       
