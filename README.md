@@ -19,6 +19,7 @@ The system has 2 parts.
 - Database structure
 
   - There are three tables to make the project workable,
+  <
   - `Admin`:
     → name
     → email
@@ -42,3 +43,7 @@ The system has 2 parts.
     → email
     → phone number
     → password
+
+    >
+
+A well structured database is kept inside **database/apache.sql**
