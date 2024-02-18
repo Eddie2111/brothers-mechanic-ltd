@@ -19,13 +19,13 @@ The system has 2 parts.
 - Database structure
 
   - There are three tables to make the project workable,
-  - admin
+  - `Admin`:
     → name
     → email
     → password
     → modifiedAt
     
-  - Appointment
+  - `Appointment`:
     → firstname
     → lastName
     → phone number
@@ -36,7 +36,7 @@ The system has 2 parts.
     → appointment date
     → mechanic
     
-  - Users
+  - `Users`:
     → firstname
     → lastname
     → email
