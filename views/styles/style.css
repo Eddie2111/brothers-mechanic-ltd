@@ -1,0 +1,214 @@
+.body {
+  background-color: #dcdcdc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 2rem 20%;
+}
+.body-admin {
+    background: rgb(214,41,118);
+    background: linear-gradient(40deg, rgba(214,41,118,1) 0%, rgba(140,68,170,1) 51%, rgba(79,91,213,1) 99%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height:100vh;
+    color: #333;
+    line-height: 1.5;
+    margin: 2rem 20%;
+  }
+
+.headingIndex {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  padding: 5px;
+  width: 60%;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 8px 10px #333333ab;
+}
+
+.headingIndex:hover {
+  box-shadow: 0 0 8px 10px #1595f7b0;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.route1,
+.route2,
+.route3,
+.route4 {
+  color: #fff;
+  display: block;
+  width: 120px;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 15px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 2px 4px 6px #333333b1;
+  text-decoration: none;
+}
+.route1 {
+  background-color: #0492ffc8;
+}
+
+.route1:hover {
+  background-color: #0492ff;
+  box-shadow: 0 2px 4px 6px #0492ff;
+}
+
+.route2 {
+  background-color: #c215f7b0;
+}
+
+.route2:hover {
+  background-color: #bc0cf6;
+  box-shadow: 0 2px 4px 6px #bc0cf6;
+}
+
+.route3 {
+  background-color: #24f715b0;
+}
+
+.route3:hover {
+  background-color: #14ff04;
+  box-shadow: 0 2px 4px 6px #14ff04;
+}
+
+.route4 {
+  background-color: #ff1a05b0;
+}
+
+.route4:hover {
+    background-color: #f6230c;
+    box-shadow: 0 2px 4px 6px #f6230c;
+}
+.appointmentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px 6px #7a7a7a85;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.appointmentCard:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 4px 6px #a0fefb85;
+}
+.container{
+    margin:auto;
+}
+.labelText{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-top:0.5rem;
+    padding: 5px;
+}
+.inputBox{
+    width: 99%;
+    outline:none;
+    border:none;
+    margin-top:5px;
+    margin-bottom:7px;
+    height:30px;
+    padding:7px;
+    font-size:18px;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    border-radius: 5px;
+}
+.inputBox:focus{
+    border-bottom: 1px solid #1595f7b0;
+}
+.inputBox:active{
+    border-bottom: 1px solid #1595f7b0;
+}
+.inputBox:hover{
+    border-bottom: 1px solid #1595f7b0;
+}
+.inputBox1{
+    width: 99%;
+    outline:none;
+    border:none;
+    margin-top:5px;
+    margin-bottom:7px;
+    height:30px;
+    padding-left:7px;
+    font-size:18px;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    border-radius: 5px;
+}
+.inputBox1:focus{
+    border-bottom: 1px solid #1595f7b0;
+}
+.inputBox1:active{
+    border-bottom: 1px solid #1595f7b0;
+}
+.inputBox1:hover{
+    border-bottom: 1px solid #1595f7b0;
+}
+@media screen and (max-width: 600px) {
+    .body{
+        margin: 1rem 5%;
+    }
+    .body-admin{
+        margin: 1rem 5%;
+    }
+  }
+.table{
+    width: 120%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    margin-top: 1rem;
+    margin-left:-5rem;
+}
+.td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+}
+.button{
+    background-color: #2578d7;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
